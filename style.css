@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+body{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+
+.sidebar{
+    display:flex;
+    cursor:pointer;
+}
+
+.sidebar .twit-icon{
+    padding: 20px;
+}
+
+#twit-main{
+    padding:20px;
+}
+
+.sidebar{
+    font-weight: 600;
+    font-size:20px;
+    margin-left: 100px;
+}
+
+.sidebar:hover{
+    background-color:rgba(88, 155, 231, 0.705);
+    border-radius:30px;
+    color:black;
+    margin:20px;
+}
+
+.sidebar:active{
+    color:blue;
+}
+
+.tweet-button{
+    width:100%;
+    background-color:rgba(88, 155, 231, 0.705);
+    color:white;
+    margin-top:20px;
+    border-radius:30px;
+    height:45px;
+    width:250px;
+    margin-left:140px;
+}
+
+.middle{
+    width:600px;
+}
+
+.middle{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    overflow-y:scroll;
+}
+
+.middle-header{
+    position:sticky;
+    top: 0;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+}
+
+.middle-header h2{
+    font-size:30px;
+    font-weight:700;
+}
+
+
+.middle::-webkit-scrollbar {
+    display: none;
+  }
+
+.comment-box img{
+    border-radius:50%;
+    height:40px;
+    width:40px;
+}
+
+.comment-box{
+    padding-bottom:1px;
+    border-bottom:1px solid black;
+}
+
+.comment-box form{
+    display:flex;
+    flex-direction:column;
+}
+
+.comment-box input{
+    display:flex;
+    padding:30px;
+    flex:1;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:20px;
+}
+
+.comment-button{
+    background-color:rgba(88, 155, 231, 0.705);
+    color:white;
+    margin-left:500px;
+    border-radius:30px;
+    width:70px;
+}
+
+.profile{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
+
+.card{
+    border:1px solid black;
+}
+
+.search-bar{
+    border-radius:25%;
+    width:300px;
+    background-color:lightgrey;
+    text-align:center;
+    margin-top:10px;
+    margin-right:100px;
+    margin-bottom:50px;
+}
+
+.happening-card{
+    margin-bottom:20px;
+    background-color:lightgrey;
+    border-radius:5%;
+    text-align:center;
+}
+
+.follow-card{
+    margin-bottom:20px;
+    background-color:lightgrey;
+    border-radius:5%;
+    text-align:center;
+    font-size:medium;
+}
+
+.follow-card img{
+        height:40px;
+        width:40px;
+        border-radius:50%;
+    }
+
+.follow-card a{
+    color:black;
+    text-decoration:none;
+}
+    
+.follow-button{
+    width:90px;
+    border-radius:50%;
+    background-color:black;
+    color:white;
+}
+
+.side-link a{
+    color:black;
+    text-decoration:none; 
+}
